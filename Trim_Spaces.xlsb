@@ -1,0 +1,13 @@
+Sub Trim_Blanks()
+
+'Trim spaces before and after in each selected cell
+
+Dim c As Range
+
+For Each c In Selection.Cells
+
+    'Replace the existing value with the trimmed value
+    c.value = Trim(c.value)
+    Next c
+
+End Sub
