@@ -1,0 +1,1 @@
+# VBA_Excel_Trim_Spaces_Before__And_After
